@@ -1,0 +1,28 @@
+{
+  "name": "nodal",
+  "version": "0.0.1",
+  "description": "NodeJS Application Bootstrap",
+  "main": "start.js",
+  "scripts": {
+    "start": "node src/start.js",
+    "test": "jasmine | istanbul cover jasmine --root ./src"
+  },
+  "keywords": [
+    "Node",
+    "dependency",
+    "injection",
+    "framework",
+    "bootstrap"
+  ],
+  "author": "Aaron Bullard <jabullard@aol.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "node-dicontainer": "0.0.1",
+    "node-eventbus": "0.0.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.3",
+    "jasmine": "^2.4.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "spec_dir": "spec",
+  "spec_files": [
+    "runner.spec.js"
+  ],
+  "helpers": [
+    "helpers/**/*.js"
+  ]
+}
