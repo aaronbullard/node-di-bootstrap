@@ -32,9 +32,9 @@ Edit `./src/config.js` and update accordingly.
 ## Life-cycle
 
 - Register
-  - To register a Service Provider, add the path of the file in the `.\src\config.js`.
+  - To register a Service Provider, add the path of the file in the `./src/config.js`.
   - Each Service Provider should implement a register method that takes the DI-Container as an argument.
   - This is called for each Service Provider from the `./src/bootstrap.js` script.  Script returns the DI-Container with all register modules.
 
 - Boot
-  - Boot is like register except it happens when the `.\src\start.js` script is called.  It's for services which may not need to be initialized until immediately before runtime.
+  - Boot is like register except it happens when the `./src/start.js` script is called.  It's for services which may not need to be initialized until immediately before runtime.
